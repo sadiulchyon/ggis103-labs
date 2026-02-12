@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Lab 2-I.kmz</name>
+	<open>1</open>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Lab 2-I</name>
+		<open>1</open>
+		<Placemark>
+			<name>Question 1</name>
+			<LookAt>
+				<longitude>-155.7663868719342</longitude>
+				<latitude>19.14488419704941</latitude>
+				<altitude>0</altitude>
+				<heading>0.03050559689043212</heading>
+				<tilt>0</tilt>
+				<range>226411.7791999733</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-155.2127559510678,18.9443770838836,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Question 2</name>
+			<LookAt>
+				<longitude>-123.3008948284223</longitude>
+				<latitude>47.82815624095431</latitude>
+				<altitude>0</altitude>
+				<heading>-0.9365467456440612</heading>
+				<tilt>0</tilt>
+				<range>1214751.480811257</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-124.1750110948942,47.1404851775927,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Question 3</name>
+			<LookAt>
+				<longitude>84.46307456217112</longitude>
+				<latitude>28.72044045867158</latitude>
+				<altitude>0</altitude>
+				<heading>0.2323526863311799</heading>
+				<tilt>0</tilt>
+				<range>1076786.253386666</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>84.5180845361842,28.60235914764838,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
