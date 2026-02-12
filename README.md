@@ -1,6 +1,6 @@
 # GGIS103 Lab - Earth's Physical Systems
 
-Comprehensive lab materials and assignments for the GGIS103 (Earth's Physical Systems) course taught at the University of Illinois Urbana-Champaign.
+Comprehensive lab materials and assignments for the GGIS103 (Earth's Physical Systems) course I taught at the University of Illinois Urbana-Champaign.
 
 ## Course Overview
 
